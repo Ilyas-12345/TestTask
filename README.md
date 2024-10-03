@@ -19,11 +19,11 @@
    
 3. Настройка переменных окружения
    Создайте файл `.env-non-dev` в корневом каталоге и укажите переменные для доступа в бд:
- ```
+    ```
     POSTGRES_USER=your_db_user
     POSTGRES_PASSWORD=your_db_password
     POSTGRES_DB=your_db_name
- ```
+    ```
 
 4. Запустите приложение с помощью Docker Compose:
    ```
