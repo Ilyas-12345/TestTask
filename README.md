@@ -1,4 +1,4 @@
-# Тестовое задание
+![image](https://github.com/user-attachments/assets/10534855-2e23-4cd9-8fb3-62b1e4072a97)# Тестовое задание
 
 ## Содержание
 - [Инструкция по запуску приложения](#Инструкция-по-запуску-приложения)
@@ -37,7 +37,7 @@
 Докумантация представлена в формате **Swagger**. Документаци доступна по ссылке - [http://localhost:9999/docs](http://localhost:9999/docs)
 
 Ниже представлен скрин **Swagger**
-![Swagger](https://github.com/user-attachments/assets/cfb3e63d-cb79-43b2-9f6b-fae1bb5da627)
+![Swagger](https://github.com/user-attachments/assets/8187ecfe-4d6a-4e0c-8795-a3d74f209452)
 
 
 
