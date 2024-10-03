@@ -3,10 +3,13 @@ import asyncio
 import uvicorn
 from fastapi import FastAPI
 
-from backend.router import router
+from backend.router import router_show, router_create, router_delete, router_update
 
 app = FastAPI()
-app.include_router(router)
+app.include_router(router_show)
+app.include_router(router_create)
+app.include_router(router_delete)
+app.include_router(router_update)
 
 async def start_api():
     config = uvicorn.Config(app, host="localhost", port=8000, log_level="info")
