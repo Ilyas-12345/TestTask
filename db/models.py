@@ -1,5 +1,5 @@
 from sqlalchemy import ForeignKey, MetaData
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+from sqlalchemy.orm import Mapped, relationship, mapped_column, DeclarativeBase
 
 
 class Base(DeclarativeBase):

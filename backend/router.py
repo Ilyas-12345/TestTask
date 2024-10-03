@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from fastapi.params import Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-import schemas
+from schemas import schemas
 from backend.crud import create_breed, create_cat, get_list_breed_name, get_list_cats_specific_breed, \
     get_cat_by_nickname_and_old, get_list_all_cats, update_cat_only_nick, update_cat_only_color, update_cat_only_old, \
     update_all_cat_info, update_cat_only_description, delete_cat_by_id

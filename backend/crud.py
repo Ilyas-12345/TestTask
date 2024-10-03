@@ -1,10 +1,8 @@
-from dns.e164 import query
 from sqlalchemy import select, update, delete
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.ext.horizontal_shard import set_shard_id
 from sqlalchemy.orm import selectinload
 
-import schemas
+from schemas import schemas
 from db.models import CatBreed, Cat
 
 
